@@ -23,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "fakeserver": "json-server --port 5000 --watch src/assets/db.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
